@@ -8,6 +8,7 @@ public class WebRtcController {
 
     @GetMapping("/conference")
     public String conference() {
-        return "/web-sdk/examples/full/conference2";
+        System.out.println("hello!");
+        return "web/examples/conference2.html";
     }
 }
